@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -22,7 +22,7 @@ public class GenerateDataBase {
         FileReader file = null;
 
         try {
-            file = new FileReader("./src/Data/" + data + ".txt");
+            file = new FileReader("./src/data/" + data + ".txt");
         } catch (FileNotFoundException e) {
             System.out.println("Error: " + e);
         }

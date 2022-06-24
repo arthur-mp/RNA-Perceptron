@@ -1,7 +1,7 @@
 package main;
 
-import Utils.DataBase;
-import Utils.GenerateDataBase;
+import utils.DataBase;
+import utils.GenerateDataBase;
 
 public class PerceptronRunner {
 
